@@ -1,0 +1,198 @@
+/* fonte :3c */
+
+body {
+
+    font-family: "Roboto", sans-serif;
+}
+
+/* logo ;3 */
+
+.cabecalho {
+
+    background-color: rgb(75, 6, 153);
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    margin-bottom: 60px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+}
+
+.container {
+    background-color: rgb(37, 37, 37);
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+
+.container .produtos {
+
+    background-color: rgb(43, 43, 43);
+    color: #b948e6;
+    display: flex;
+    justify-content: center;
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 32px;
+    line-height: 32px;
+    letter-spacing: 2px;
+}
+
+/* filtros >:3 */
+
+.container .filtros, .preco-cartas {
+
+    background-color: rgb(54, 54, 54);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 16px;
+    color: rgb(199, 199, 199);
+    
+}
+
+.container .categorias-cartas, .container .preco-cartas {
+
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+}
+
+.container label {
+
+    letter-spacing: 2px;
+    font-weight: 500;
+}
+
+.container  select, .container .preco-cartas input {
+
+    transition: 0.3s;
+    padding: 1px 13px;
+    border-radius: 15px ;
+    border: 2px solid #6529d3;
+    background-color: #d4d4d4;
+
+}
+
+/* butaun :3 */
+
+.container .btn-comprar, .btn-filtrar { 
+
+    border-radius: 20px;
+    border: 2px solid #6528d3;
+    background-color: #6528d3;
+    color: #ededed;
+    padding: 1px 32px;
+    font-weight: 500;
+    align-self: end;
+    width: 177px;
+    height: 30px;
+    cursor: pointer;
+    letter-spacing: 2px;
+    transition: 0.5s;
+    margin: 8px;
+    margin-bottom: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+
+}
+
+.container  select:focus, .container  input:focus, .container  select:focus-visible, .container  input:focus-visible {
+
+    outline: none;
+
+}
+
+.container .categorias {
+
+   outline: none;
+}
+
+/* sombrinhas :D */
+
+.container .btn-comprar:hover, .btn-filtrar:hover {
+
+    background-color: #3c1a7c;
+    box-shadow: 4px 4px 12px rgba(118, 44, 204, 0.8);
+}
+
+.container .categorias:hover, .container .preco:hover {
+
+    background-color: #9c9c9c;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+    color: rgb(138, 13, 255);
+}
+
+.container .cartas {
+
+    display: flex;
+    flex-wrap: wrap;
+    gap: 32px;
+    margin-top: 50px;
+    color: rgb(247, 246, 246);
+    justify-content: center;
+}
+.container .cartas .carta {
+
+    background-color: rgb(83, 83, 83);
+    max-width: 365px;
+    border-radius: 20px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.36);
+    transition: 0.5s;
+
+}
+
+.container .cartas .carta:hover {
+
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 01);
+}
+
+.container .carta img{
+
+    width: 100%;
+    padding: 20px;
+}
+
+/* informações ;3c */
+
+.container .carta .informacoes {
+
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+    display: flex;
+    padding: 20px;
+    background-color: rgb(39, 39, 39);
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+
+}
+
+.container .carta .informacoes .nome-personagem {
+
+    font-size: 24px;
+    font-weight: 700;
+    color: rgb(151, 52, 197);
+    
+}
+
+.rodape {
+
+    background-color: rgb(41, 41, 41);
+    display: flex;
+    justify-content: center;
+    color: rgb(97, 97, 97);
+    padding: 20px;
+    margin-top: 60px;
+}
+
+/* Filtros :o */
+
+.esconder {
+
+    display: none;
+}
+
+.mostrar {
+
+    display: block;
+}
